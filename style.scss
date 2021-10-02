@@ -58,7 +58,7 @@ body {
     margin: 0 auto;
     max-width: 1440px;
     padding-left: 12.5%;
-    padding-top: 5rem;
+    padding-top: 0.5rem;
     width: 87.5%;
 }
 
@@ -92,7 +92,7 @@ a,a:visited {
     color: #111;
 
     &:hover {
-        color: rgb(220, 40, 40);
+        color: rgb(227, 105, 38);
     }
 }
 
@@ -170,6 +170,11 @@ table {
 /**************************************/
 /*p*/.subtitle {
     font-size: 1.8rem;
+    font-style: italic;
+}
+
+/*p*/.smallemph {
+    font-size: 1rem;
     font-style: italic;
 }
 
@@ -356,8 +361,8 @@ nav {
 }
 
 /* Dark Mode */
-@media (prefers-color-scheme: dark) {
-    body{background:#191919;filter:invert(1);}
-    .highlight{border-color: grey !important;}
+@media (prefers-color-scheme: light) {
+    body{background: rgba(111, 111, 111, 0.89);filter:invert(1);}
+    .highlight{border-color: #5c5858 !important;}
     img,iframe,.highlight,a:hover,a:focus{filter:invert(1);}
 }
