@@ -50,7 +50,7 @@ html {
 
 body {
     -webkit-font-smoothing: antialiased;
-    background: #fffff8;
+    background: #c1bcbc;
     color: #111;
     counter-reset: sidenote-counter;
     font: 1.4rem/2rem "et-book", Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
@@ -92,7 +92,7 @@ a,a:visited {
     color: #111;
 
     &:hover {
-        color: rgb(227, 105, 38);
+        color: rgb(182, 86, 43);
     }
 }
 
@@ -357,12 +357,33 @@ nav {
         top: auto;
         width: 100%;
     }
-
 }
 
+///* Light Mode */
+//@media (prefers-color-scheme: dark) {
+//    body {
+//        background: rgba(31, 31, 31, 0.89);
+//        filter: invert(1);
+//    }
+//    .highlight {
+//        border-color: #5c5858 !important;
+//    }
+//    img, iframe, .highlight, a:hover, a:focus {
+//        filter: invert(1);
+//    }
+//}
+
 /* Dark Mode */
-@media (prefers-color-scheme: light) {
-    body{background: rgba(111, 111, 111, 0.89);filter:invert(1);}
-    .highlight{border-color: #5c5858 !important;}
-    img,iframe,.highlight,a:hover,a:focus{filter:invert(1);}
+@media (prefers-color-scheme: dark) {
+    body {
+        background: rgba(31, 31, 31, 0.89);
+        filter: invert(1);
+    }
+    .highlight {
+        border-color: #5c5858 !important;
+    }
+    img, iframe, .highlight, a:hover, a:focus {
+        filter: invert(1);
+    }
+
 }
