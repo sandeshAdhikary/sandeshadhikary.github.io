@@ -2,6 +2,8 @@
 # Main styling
 ---
 
+
+
 /**************************************
     $ CUSTOM TYPEFACE
 /**************************************/
@@ -88,12 +90,24 @@ p {
     position: relative;
 }
 
-a,a:visited {
-    color: #111;
+//a,a:visited {
+//    color: #111111;
+//
+//    &:hover {
+//        color: rgb(182, 86, 43);
+//    }
+//}
+
+a{
+    color: #111111;
 
     &:hover {
         color: rgb(182, 86, 43);
     }
+}
+
+.a.footer{
+    text-decoration: none;
 }
 
 blockquote {
@@ -194,7 +208,7 @@ table {
 /*span*/.marginnote,
 /*span*/.sidenote,
 figcaption {
-    font-size: 80%;
+    font-size: 65%;
     left: calc(100% + 4rem);
     line-height: 1.3rem;
     max-width: 400px;
@@ -220,7 +234,7 @@ figcaption {
     &:after {
         content: counter(sidenote-counter);
         font-family: et-book-roman-old-style;
-        font-size: 80%;
+        font-size: 65%;
         left: 0.1rem;
         position: relative;
         top: -0.5rem;
@@ -382,8 +396,7 @@ nav {
     .highlight {
         border-color: #5c5858 !important;
     }
-    img, iframe, .highlight, a:hover, a:focus {
+    img, iframe, .highlight, a:hover {
         filter: invert(1);
     }
-
 }
