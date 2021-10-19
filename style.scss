@@ -106,10 +106,6 @@ a{
     }
 }
 
-.a.footer{
-    text-decoration: none;
-}
-
 blockquote {
     font-style: italic;
     margin: 0;
@@ -281,8 +277,8 @@ figure {
     $NAVIGATION
 /**************************************/
 nav {
-    margin-bottom: 6rem;
-    margin-top: 1rem;
+    margin-bottom: 2rem;
+    margin-top: 0.5rem;
 
     .menu-icon {
         cursor: pointer;
