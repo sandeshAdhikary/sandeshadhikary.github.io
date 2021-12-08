@@ -383,16 +383,16 @@ nav {
 //    }
 //}
 
-/* Dark Mode */
-@media (prefers-color-scheme: dark) {
-    body {
-        background: rgba(31, 31, 31, 0.89);
-        filter: invert(1);
-    }
-    .highlight {
-        border-color: #5c5858 !important;
-    }
-    img, iframe, .highlight, a:hover {
-        filter: invert(1);
-    }
-}
+///* Dark Mode */
+//@media (prefers-color-scheme: dark) {
+//    body {
+//        background: rgba(31, 31, 31, 0.89);
+//        filter: invert(1);
+//    }
+//    .highlight {
+//        border-color: #5c5858 !important;
+//    }
+//    img, iframe, .highlight, a:hover {
+//        filter: invert(1);
+//    }
+//}
