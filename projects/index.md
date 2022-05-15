@@ -5,22 +5,7 @@ description: Projects
 ---
 Here's a summary of some of my projects
 
-### Policy Composition in Multi-Objective Reinforcement Learning
-As we expand the scale and complexity of problems tackled by reinforcement learning, the 
-[reward hypothesis](http://incompleteideas.net/rlai.cs.ualberta.ca/RLAI/rewardhypothesis.html) 
-will continue to be put to the test: can we always find a single reward signal to encapsulate any 
-objective? We are routinely faced with multiple competing objectives, but only fuzzy notions of the ultimate composite goal. 
-Economic policy must bolster growth while curbing inequality; robots must reach goals while avoiding obstacles around them; 
-financial investment strategies must maximize returns but with a diverse portfolio. Even if a single reward
-function does exist for such problems, it may be quite difficult to define. 
-
-A promising solution is to train separate agents for different objectives, and find a way to combine their policies into a composite policy. 
-Much of the current literature on policy-composition focuses on defining weighted averages of value functions for individual objectives. 
-We are interested in expanding this strategy to encode notions such as stability, fairness, co-operation, and so on. 
-Our aim is to define a structured class of policy composition strategies which we can use to design novel policy composition strategies
-in a principled manner, going beyond simple (Euclidean) value-averaging. 
-
-### Geometry-Aware Sampling with Kernel Herding
+### Geometry-Aware Sampling using Kernel Herding
 Riemannian manifolds crop up routinely in various domains, robotics being a prime example. 
 Various properties of a robot such as its orientation (spherical manifold), full pose (SE(3) manifold), 
 its damping and inertia matrices (symmetric positive definite manifold), can be modeled as elements of 
@@ -29,7 +14,7 @@ distributions via the kernel herding algorithm. Kernel herding uses Frank-Wolfe 
 
 #### Links:
 [Workshop paper in RSS 2021](https://sites.google.com/view/geotopo-rss2021/accepted-contributions) | 
-Full paper under review
+Full paper to appear in ICRA 2022
 
 ### Quantum Tensor Networks for Probabilistic Modeling
 
