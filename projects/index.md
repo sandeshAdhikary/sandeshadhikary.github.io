@@ -14,7 +14,7 @@ distributions via the kernel herding algorithm. Kernel herding uses Frank-Wolfe 
 
 #### Links:
 [Workshop paper in RSS 2021](https://sites.google.com/view/geotopo-rss2021/accepted-contributions) | 
-Full paper to appear in ICRA 2022
+[Conference Paper in ICRA 2022](https://github.com/sandeshAdhikary/sandeshadhikary.github.io/edit/main/projects/index.md)
 
 ### Quantum Tensor Networks for Probabilistic Modeling
 
