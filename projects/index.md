@@ -5,6 +5,9 @@ description: Projects
 ---
 Here's a summary of some of my projects
 
+### BeigeMaps: Behavioral EigenMaps for Reinforcement Learning from Images
+Training reinforcement learning (RL) agents directly from high-dimensional image observations continues to be a challenging problem. A recent line of work has proposed learning representations that encode behavioral similarities between states quantified by the bisimulation metric. Such representations are learned as isometric mappings from the state space to lower dimensional Euclidean space that preserves the bisimulation metric between pairs of states. However, such an isometric mapping may not exist. We propose an alternative approach: allow distortions in long-range distances, but still preserve the short-range local metric structure. This leads to new representations, which we call Behavioral Eigenmaps (BeigeMaps), corresponding to the eigenfunctions of similarity kernels induced by existing behavioral distances. Additionally, Laplacian eigenmaps are known to reveal cluster structures in data, which can be beneficial for downstream policy learning.
+
 ### Geometry-Aware Sampling using Kernel Herding
 Riemannian manifolds crop up routinely in various domains, robotics being a prime example. 
 Various properties of a robot such as its orientation (spherical manifold), full pose (SE(3) manifold), 
